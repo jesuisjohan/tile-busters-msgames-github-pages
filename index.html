@@ -55,6 +55,12 @@
                 background-size: cover;
             }
 
+            @media (min-aspect-ratio: 16/9) {
+                .app-bg {
+                    background-size: contain;
+                }
+            }
+
             .overlay {
                 position: fixed;
                 top: 0;
@@ -74,7 +80,7 @@
                 transform: translate(-50%, -50%);
                 left: 50%;
                 top: 50%;
-                box-shadow: rgb(0 0 0 / 10%) 0px 0px 16px 16px;
+                /* box-shadow: rgb(0 0 0 / 10%) 0px 0px 16px 16px; */
                 touch-action: none;
             }
 
@@ -135,7 +141,7 @@
 
             div[hidden] {
                 display: none !important;
-            }</style><link href="sdk.402d056c9d0552bb38f3.bundle.js" rel="preload" as="script"/><link href="vendors.848cfdcfd229f1c1de19.bundle.js" rel="preload" as="script"/><link href="engine.978a29935c7935ce2a0d.bundle.js" rel="preload" as="script"/><link href="game.730de9e05bc9671f5658.bundle.js" rel="preload" as="script"/><script defer="defer" src="libs/sentry.min.js"></script><script>"use strict"
+            }</style><link href="sdk.402d056c9d0552bb38f3.bundle.js" rel="preload" as="script"/><link href="vendors.848cfdcfd229f1c1de19.bundle.js" rel="preload" as="script"/><link href="engine.978a29935c7935ce2a0d.bundle.js" rel="preload" as="script"/><link href="game.748db6f82a5895ded606.bundle.js" rel="preload" as="script"/><script defer="defer" src="libs/sentry.min.js"></script><script>"use strict"
 
     var waitSentryTimer = setInterval(function () {
     if (!window.hasOwnProperty('Sentry')) return
@@ -150,4 +156,4 @@
         tracesSampleRate: '1.0',
     })
     }, 100)</script><script>window.dataLayer = window.dataLayer || [];
-function gtag() { dataLayer.push(arguments); }</script><script src="https://assets.msn.com/staticsb/statics/latest/msstart-games-sdk/msstart-v1.0.0-rc.13.min.js"></script></head><body oncontextmenu="event.preventDefault()"><div id="app"><div id="game-scene-bg"></div><div id="bgs"><dic id="current-next"><div id="app-gp-current-bg" class="app-bg"></div><div id="app-gp-next-bg" class="app-bg"></div></dic><div id="app-db-bg" class="app-bg"></div></div><div id="app-bg-overlay" class="overlay"></div><div id="app-bg-notify-overlay" class="overlay"></div></div><script src="sdk.402d056c9d0552bb38f3.bundle.js"></script><script>"use strict";function initFbInstant(){var t=1,n=setInterval((function(){"FBInstant"in window&&(clearInterval(n),FBInstant.initializeAsync().then((function(){window.focus();var n=FBInstant.player.getID();FBInstant.getEntryPointAsync().then((function(t){initGoogleAnalytics(n,t)})).catch((function(){initGoogleAnalytics(n,"no_entry")})),window.__fbInstantInitiated=!0,window.__fbInstantLoadingTimer=setInterval((function(){FBInstant.setLoadingProgress(t++),t>=30&&clearInterval(window.__fbInstantLoadingTimer)}),80)})))}),50)}function initGoogleAnalytics(t,n){if(window.__GA_CONFIG){var i=window.__GA_CONFIG.BUILD_VERSION,a=window.__GA_CONFIG.GA_MEASUREMENT_ID;if("null"!=a){var e=FBInstant.getEntryPointData()||{},s=e.fbig_ad_id,o=e.fbig_adset_id,_=e.fbig_campaign_id,g=document.createElement("script");g.async=!0,g.src="https://www.googletagmanager.com/gtag/js?id="+a,document.head.appendChild(g),gtag("set","client_storage","none"),gtag("set","client_id","100."+t),gtag("set","user_id",t),gtag("set","send_page_view",!1),gtag("js",new Date),gtag("config",a,{cookie_flags:"SameSite=None;Secure",build:i,medium:n,campaign:_,groups:"GA"}),gtag("set","user_properties",{user_id:t,traffic_source:n,campaign_id:_,adset_id:o,ad_id:s}),gtag("event","app_launch",{send_to:"GA"}),window.__analyticsInitiated=!0}else window.__analyticsInitiated=!0}else window.__analyticsInitiated=!0}initFbInstant();</script><script defer="defer" src="vendors.848cfdcfd229f1c1de19.bundle.js"></script><script defer="defer" src="engine.978a29935c7935ce2a0d.bundle.js"></script><script defer="defer" src="game.730de9e05bc9671f5658.bundle.js"></script></body></html>
+function gtag() { dataLayer.push(arguments); }</script><script src="https://assets.msn.com/staticsb/statics/latest/msstart-games-sdk/msstart-v1.0.0-rc.13.min.js"></script></head><body oncontextmenu="event.preventDefault()"><div id="app"><div id="game-scene-bg"></div><div id="bgs"><dic id="current-next"><div id="app-gp-current-bg" class="app-bg"></div><div id="app-gp-next-bg" class="app-bg"></div></dic><div id="app-db-bg" class="app-bg"></div></div><div id="app-bg-overlay" class="overlay"></div><div id="app-bg-notify-overlay" class="overlay"></div></div><script src="sdk.402d056c9d0552bb38f3.bundle.js"></script><script>"use strict";function initFbInstant(){var t=1,n=setInterval((function(){"FBInstant"in window&&(clearInterval(n),FBInstant.initializeAsync().then((function(){window.focus();var n=FBInstant.player.getID();FBInstant.getEntryPointAsync().then((function(t){initGoogleAnalytics(n,t)})).catch((function(){initGoogleAnalytics(n,"no_entry")})),window.__fbInstantInitiated=!0,window.__fbInstantLoadingTimer=setInterval((function(){FBInstant.setLoadingProgress(t++),t>=30&&clearInterval(window.__fbInstantLoadingTimer)}),80)})))}),50)}function initGoogleAnalytics(t,n){if(window.__GA_CONFIG){var i=window.__GA_CONFIG.BUILD_VERSION,a=window.__GA_CONFIG.GA_MEASUREMENT_ID;if("null"!=a){var e=FBInstant.getEntryPointData()||{},s=e.fbig_ad_id,o=e.fbig_adset_id,_=e.fbig_campaign_id,g=document.createElement("script");g.async=!0,g.src="https://www.googletagmanager.com/gtag/js?id="+a,document.head.appendChild(g),gtag("set","client_storage","none"),gtag("set","client_id","100."+t),gtag("set","user_id",t),gtag("set","send_page_view",!1),gtag("js",new Date),gtag("config",a,{cookie_flags:"SameSite=None;Secure",build:i,medium:n,campaign:_,groups:"GA"}),gtag("set","user_properties",{user_id:t,traffic_source:n,campaign_id:_,adset_id:o,ad_id:s}),gtag("event","app_launch",{send_to:"GA"}),window.__analyticsInitiated=!0}else window.__analyticsInitiated=!0}else window.__analyticsInitiated=!0}initFbInstant();</script><script defer="defer" src="vendors.848cfdcfd229f1c1de19.bundle.js"></script><script defer="defer" src="engine.978a29935c7935ce2a0d.bundle.js"></script><script defer="defer" src="game.748db6f82a5895ded606.bundle.js"></script></body></html>
