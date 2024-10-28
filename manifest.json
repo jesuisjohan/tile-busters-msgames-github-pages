@@ -1,7 +1,7 @@
 {
-    "name": "Game Core",
-    "short_name": "Game Core",
-    "description": "",
+    "name": "Tile Adventure",
+    "short_name": "Tile Adventure",
+    "description": "Welcome to Tile Adventure! Dive into a world where vibrant tiles and beautiful backgrounds combine in a match-3 puzzle adventure. Strategically align three matching tiles while exploring stunning and immersive levels. Tackle engaging challenges, enhance your puzzle skills, and enjoy an exciting journey through mesmerizing designs and clever puzzles. Get ready to elevate your matching game!",
     "icons": [
         {
             "src": "./icon-512x512.png",
@@ -19,7 +19,7 @@
     "theme_color": "#ffffff",
     "ms_start_compatible": true,
     "background_color": "#000000",
-    "id": "game-core",
+    "id": "tile-adventure",
     "lang": "en",
     "orientation": "portrait-primary",
     "categories": ["games"],
